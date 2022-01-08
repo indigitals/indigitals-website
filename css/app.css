@@ -2,6 +2,7 @@
 body{
     background: black;
 }
+
 #title {
     display: flex;
     justify-content: center;
