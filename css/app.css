@@ -2,10 +2,7 @@
 
 
 #title {
-    display: flex;
-    justify-content: center;
-    transform: translateY(230px);
-    margin: 20px;
+    transform: translateY(-200px);
     transition-duration: .5s;
     transition-timing-function: ease-out;
     text-shadow: 3px 3px 10px black;
@@ -23,20 +20,27 @@
 }
 
 #start{
-    /*background: none;*/
+    background: none;
     border: solid grey;
-    display: flex; 
-    flex-direction: row;
-    justify-content: center;
-    flex-basis: 50%;
-    transform: translateY(240px);
+    padding: 1em 2em;
     border-radius: 50%;
-    transition-duration: .5s;
+    transition: all .5s;
     background-color: grey;
 }
 
+#start:hover{
+    background: none;
+    border-color: whitesmoke;
+    background-color: white;
+    transform: translateY(-5px); 
+    cursor: pointer;
+}
 body {
     background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/221808/sky.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
