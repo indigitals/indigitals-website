@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <script language="JavaScript">
-<!-- 
-var space = " ";
-var speed = "150";
-var pos = 0;
-var msg = "indigitals.tk ♠";
-function Scroll()
-{
-document.title = msg.substring(pos, msg.length) + space + msg.substring(0,pos);
-pos++;
-if (pos > msg.length) pos = 0;
-window.setTimeout("Scroll()", speed);
-}
-Scroll();
--->
+    <!-- 
+    var space = " ";
+    var speed = "150";
+    var pos = 0;
+    var msg = "indigitals.tk ♠";
+    function Scroll()
+    {
+    document.title = msg.substring(pos, msg.length) + space + msg.substring(0,pos);
+    pos++;
+    if (pos > msg.length) pos = 0;
+    window.setTimeout("Scroll()", speed);
+    }
+    Scroll();
+    -->
 </script>
 <head>
     <meta charset="UTF-8">
@@ -36,7 +36,36 @@ Scroll();
 
     <audio id="audio" src="media/NOT  Who Do I Trust Official Audio.mp3"></audio>
     <div class="text-center">
-        <button class="start"></button>
+        <circle class="hoverable stateSwitch" cx="800.466" cy="284.708" r="39" style="stroke:none;fill:white;stroke-opacity:0.5;stroke-width:2.19px;" />
+        <div class="pause">
+            <svg width="100%" height="100%" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+            <g transform="matrix(1,0,0,1,-782.354,-313.844)">
+            <g>
+            <g transform="matrix(1,0,0,1,-3.00814,0)">
+            <rect x="785.362" y="313.844" width="14.638" height="35.292" style="fill:rgb(22,21,30);" />
+            </g>
+            <g transform="matrix(1,0,0,1,17.6462,0)">
+            <rect x="785.362" y="313.844" width="14.638" height="35.292" style="fill:rgb(22,21,30);" />
+            </g>
+            </g>
+            </g>
+            </svg>
+        </div>
+        <div class="play">
+            <svg width="100%" height="100%" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+            <g transform="matrix(1,0,0,1,-785.362,-313.844)">
+            <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,1085.08,-469.969)">
+            <path d="M801.459,264.422L819.105,299.715L783.812,299.715L801.459,264.422Z" style="fill:rgb(10,8,18);fill-opacity:1;" />
+            </g>
+            </g>
+            <defs>
+            <filter id="f2" x="0" y="0" width="200%" height="200%">
+            <fegaussianblur result="blurOut" in="offOut" stdDeviation="10" />
+            <feblend in="SourceGraphic" in2="blurOut" mode="normal" />
+            </filter>
+            </defs>
+            </svg>
+        </div>
     </div>
 
 </body>
