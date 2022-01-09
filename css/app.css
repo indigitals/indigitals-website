@@ -36,9 +36,18 @@ body {
     text-shadow: 0px 0px 30px white;
 }
 
-.start{
-    background-color: thistle;
-    border-color:thistle;
-    padding: 50px;
-    border-radius: 50%;
+.pause{
+    width:4rem;
+    display:none;
+    pointer-events:none;
+    animation:stateSwitch .5s ease-in-out
 }
+
+.play{
+    width: 4rem;
+    display: inline-block;
+    pointer-events: none;
+    animation: stateSwitch .5s ease-in-out
+}
+
+@keyframes stateSwitch{0%{opacity:0}100%{opacity:100%}}
